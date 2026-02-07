@@ -138,8 +138,8 @@ For a comprehensive analysis including methodology, visualizations, and business
 ## 👤 Author
 
 **Thanos Paidoulias**
-- GitHub: [@YOUR_USERNAME](https://github.com/ThanosPaidoulias)
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/thanos-paidoulias/)
+- GitHub: [@https://github.com/ThanosPaidoulias]
+- LinkedIn: [https://www.linkedin.com/in/thanos-paidoulias/]
 
 ## 📝 License
 
