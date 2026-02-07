@@ -73,24 +73,33 @@ Customer churn is a critical business metric for financial institutions. This pr
 
 ## 📊 Results
 
-### Best Model: LGBMClassifier with Custom Threshold
+### Best Model: LGBMClassifier with Custom Threshold (0.28)
 
+| Metric | Score |
+|--------|-------|
+| **Accuracy** | 85% |
+| **Recall (Churn)** | **67%** |
+| **Precision (Churn)** | 72% |
+| **F1 Score (Churn)** | 56% |
+
+**Achievement:** Successfully identified 2 out of 3 customers who actually churned.
 
 ### Key Insights
 
 **Most Important Churn Predictors:**
-1. Balance (Euros) - Higher balance → higher churn
-2. Estimated Income
-3. Digital Transaction Ratio
-4. Tenure (Years) - Shorter tenure → higher risk
-5. Number of Products - Single product users at higher risk
+1. **Estimated Income** - Primary predictor
+2. **Balance (Euros)** - Higher balance → higher churn risk
+3. **Digital Transaction Ratio** - Engagement indicator
+4. **Tenure (Years)** - Shorter tenure → higher risk
+5. **Number of Products** - Single product users at higher risk
 
-**Customer Segments at Risk:**
-- Female customers
+**Customer Segments at High Risk:**
+- Female customers (higher churn vs males)
 - Age groups 25-35 and 35-45
-- Customers registered outside Athens
+- Customers registered in "Rest of Greece" region (vs Athens/Thessaloniki)
 - Single product holders
-
+- Customers with higher account balances
+  
 ## 💡 Business Recommendations
 
 1. **Target High-Risk Segments**: Focus retention efforts on customers with high balance and short tenure
